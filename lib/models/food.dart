@@ -1,7 +1,3 @@
-
-
-import 'package:flutter/material.dart';
-
 class Food {
   final int id;
   String imgUrl;
@@ -24,10 +20,15 @@ class Food {
         'Mega Hambúrguer à Patrão',
         12,
         [
-          {'name': 'alface'},
-          {'name': 'molho'},
-          {'name': 'pão'},
-          {'name': 'cona'},
+          {'Pão': 'assets/img/pao1.png'},
+          {'Hambúrguer': 'assets/img/pao1.png'},
+          {'Alface': 'assets/img/pao1.png'},
+          {'Tomate': 'assets/img/pao1.png'},
+          {'Queijo': 'assets/img/pao1.png'},
+          {'Bacon': 'assets/img/pao1.png'},
+          {'Ovo': 'assets/img/pao1.png'},
+          {'Cebola tostada': 'assets/img/pao1.png'},
+          {'Batata': 'assets/img/pao1.png'},  //Pão / Hambúrguer / Alface / Tomate / Queijo / Bacon / Ovo / Cebola tostada / Batata palha
         ],
       ),
       Food(

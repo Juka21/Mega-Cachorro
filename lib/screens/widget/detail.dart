@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-
+import 'package:megamenu/screens/widget/food_detail.dart';
+import 'package:megamenu/screens/widget/food_img.dart';
 import '../../Home/widgets/custom_app_bar.dart';
 import '../../constants/colors.dart';
 import '../../models/food.dart';
@@ -27,6 +28,8 @@ class DetailPage extends StatelessWidget {
               isFavorite: false,
               leftCallBack: () {},
             ),
+            FoodImg(food),
+            FoodDetail(food),
           ],
         ),
       ),
